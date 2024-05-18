@@ -33,7 +33,7 @@ encode the desired files with the resulting binary file.
 
 Huffman coding can be implemented in O(n log n) using a min heap data 
 structure, which is nothing more than a tree that satisfies the property
-that the children C of any node P must have a *key* value smaller than or
+that the children C of any node P must have a *key* value greater than or
 equal to the *key* of P.
 
 ```
